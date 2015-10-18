@@ -24,8 +24,10 @@
   }
 , "dependencies" :
   { "jsdom" : "0.2.x"
-  , "libxmljs" : "git://github.com/znerol/libxmljs.git"
-  }
+  , 
+	#"libxmljs" : "git://github.com/znerol/libxmljs.git"
+	"libxmljs" : "git+https://github.com/polotek/libxmljs.git"  
+}
 , "devDependencies" :
   { "browserify" : "1.10.x"
   , "nodeunit" : "0.6.x"
