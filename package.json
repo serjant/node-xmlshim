@@ -23,7 +23,7 @@
   , "url" : "git@github.com:znerol/node-xmlshim.git"
   }
 , "dependencies" :
-  { "jsdom" : "3.1.2"
+  { "jsdom" : "git+https://github.com/tmpvar/jsdom.git#f62ba5ed4235c425709e84e4ccbd1f6fc2f93e0d"
   , "libxmljs" : "git+https://github.com/polotek/libxmljs.git"  
 }
 , "devDependencies" :
